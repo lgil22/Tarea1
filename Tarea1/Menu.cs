@@ -42,11 +42,11 @@ namespace Tarea1.Tarea2
                         Console.Clear();
                         Menu5();
                         break;
-                   /* case 6:
+                    case 6:
                         Console.Clear();
                         Menu6();
                         break;
-                    case 7:
+                  /*  case 7:
                         Console.Clear();
                         Menu7();
                         break;
@@ -199,7 +199,7 @@ namespace Tarea1.Tarea2
 
             }
         }
-      /*  public static void Menu6()
+        public static void Menu6()
         {
             Console.Write("1.Ejercicio 1,2,3: Promedio y Calificaciones\n" + "2.Ejercicio 4: Jagged Funcion\n" +
                 "\nDigite la Opcion Deseada: ");
@@ -209,12 +209,12 @@ namespace Tarea1.Tarea2
                 {
                     case 1:
                         Console.Clear();
-                        Tarea2.PromedioCalif pcal = new Tarea2.PromedioCalif();
+                        Tarea2.Cap6.PromedioCalif pcal = new Tarea2.Cap6.PromedioCalif();
                         pcal.promcal();
                         break;
                     case 2:
                         Console.Clear();
-                        Tarea2.JaggedFuncion func = new Tarea2.JaggedFuncion();
+                        Tarea2.Cap6.JaggedFuncion func = new Tarea2.Cap6.JaggedFuncion();
                         func.funtion();
                         break;
                 }
@@ -222,7 +222,7 @@ namespace Tarea1.Tarea2
             }
         }
 
-        public static void Menu7()
+      /*  public static void Menu7()
         {
             Console.Write("1.Ejercicio 1: ArrayList\n" + "2.Ejercicio 4: HashTable\n" + "3.Ejercicio 5: Agenda Telefonica\n\n" +
                 "\nDigite la Opcion Deseada: ");

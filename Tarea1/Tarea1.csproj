@@ -59,12 +59,12 @@
     <Compile Include="Tarea1\Cap4\Potencia.cs" />
     <Compile Include="Tarea2\Cap5\Cadena.cs" />
     <Compile Include="Tarea2\Cap5\FactorialNumero.cs" />
+    <Compile Include="Tarea2\Cap6\JaggedFuncion.cs" />
+    <Compile Include="Tarea2\Cap6\PromedioCalif.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tarea2\Cap6\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
