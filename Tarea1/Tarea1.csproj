@@ -61,12 +61,13 @@
     <Compile Include="Tarea2\Cap5\FactorialNumero.cs" />
     <Compile Include="Tarea2\Cap6\JaggedFuncion.cs" />
     <Compile Include="Tarea2\Cap6\PromedioCalif.cs" />
+    <Compile Include="Tarea2\Cap7\AgendaTelefonica.cs" />
+    <Compile Include="Tarea2\Cap7\Arreglo.cs" />
+    <Compile Include="Tarea2\Cap7\Hash.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tarea2\Cap7\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

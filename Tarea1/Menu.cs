@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Tarea1;
 
-
-
 namespace Tarea1.Tarea2
 {
    public class Menu
@@ -46,11 +44,11 @@ namespace Tarea1.Tarea2
                         Console.Clear();
                         Menu6();
                         break;
-                  /*  case 7:
+                    case 7:
                         Console.Clear();
                         Menu7();
                         break;
-                    case 8:
+                  /*  case 8:
                         Console.Clear();
                         Menu8();
                         break;*/
@@ -222,7 +220,7 @@ namespace Tarea1.Tarea2
             }
         }
 
-      /*  public static void Menu7()
+        public static void Menu7()
         {
             Console.Write("1.Ejercicio 1: ArrayList\n" + "2.Ejercicio 4: HashTable\n" + "3.Ejercicio 5: Agenda Telefonica\n\n" +
                 "\nDigite la Opcion Deseada: ");
@@ -232,19 +230,19 @@ namespace Tarea1.Tarea2
                 {
                     case 1:
                         Console.Clear();
-                        Tarea2.Arreglo arr = new Tarea2.Arreglo();
+                        Tarea2.Cap7.Arreglo arr = new Tarea2.Cap7.Arreglo();
                         arr.list();
                         break;
                     case 2:
                         Console.Clear();
-                        Tarea2.Hash has = new Tarea2.Hash();
+                        Tarea2.Cap7.Hash has = new Tarea2.Cap7.Hash();
                         has.hash();
                         Console.ReadKey();
                         break;
 
                     case 3:
                         Console.Clear();
-                        Tarea2.AgendaTelefonica agenda = new Tarea2.AgendaTelefonica();
+                        Tarea2.Cap7.AgendaTelefonica agenda = new Tarea2.Cap7.AgendaTelefonica();
                         agenda.agend();
                         break;
 
@@ -253,7 +251,7 @@ namespace Tarea1.Tarea2
             }
         }
 
-        public static void Menu8()
+        /*public static void Menu8()
         {
             Console.Write("1.Ejercicio 3: Hora Am-Pm\n" + "2.Ejercicio 5: Cadenas\n\n" +
                 "\nDigite la Opcion Deseada: ");
