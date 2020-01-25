@@ -48,12 +48,11 @@ namespace Tarea1.Tarea2
                         Console.Clear();
                         Menu7();
                         break;
-                  /*  case 8:
+                    case 8:
                         Console.Clear();
                         Menu8();
-                        break;*/
+                        break;
                 }
-
             }
         }
         public static void Menu1()
@@ -79,8 +78,7 @@ namespace Tarea1.Tarea2
                         break;
                 }
             }
-
-        }
+         }
 
         public static void Menu2()
         {
@@ -108,7 +106,6 @@ namespace Tarea1.Tarea2
                         pog.PoligR();
                         break;
                 }
-
             }
         }
 
@@ -251,7 +248,7 @@ namespace Tarea1.Tarea2
             }
         }
 
-        /*public static void Menu8()
+        public static void Menu8()
         {
             Console.Write("1.Ejercicio 3: Hora Am-Pm\n" + "2.Ejercicio 5: Cadenas\n\n" +
                 "\nDigite la Opcion Deseada: ");
@@ -261,41 +258,17 @@ namespace Tarea1.Tarea2
                 {
                     case 1:
                         Console.Clear();
-                        Tarea2.HORAampm hor = new Tarea2.HORAampm();
+                        Tarea2.Cap8.HORAampm hor = new Tarea2.Cap8.HORAampm();
                         hor.AMPM();
                         break;
                     case 2:
                         Console.Clear();
-                        Tarea2.DosCadenas cad = new Tarea2.DosCadenas();
+                        Tarea2.Cap8.DosCadenas cad = new Tarea2.Cap8.DosCadenas();
                         cad.cadens();
                         Console.ReadKey();
                         break;
                 }
-
             }
-        }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
     }
 }

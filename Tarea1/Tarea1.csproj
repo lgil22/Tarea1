@@ -64,12 +64,12 @@
     <Compile Include="Tarea2\Cap7\AgendaTelefonica.cs" />
     <Compile Include="Tarea2\Cap7\Arreglo.cs" />
     <Compile Include="Tarea2\Cap7\Hash.cs" />
+    <Compile Include="Tarea2\Cap8\DosCadenas.cs" />
+    <Compile Include="Tarea2\Cap8\HORAampm.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tarea2\Cap8\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
