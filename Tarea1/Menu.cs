@@ -12,7 +12,7 @@ namespace Tarea1.Tarea2
         public static void MenuPrincipal()
         {
             Console.Clear();
-            Console.Write("1.Ejercicios Capitulo #1\n" + "2.Ejercicios Capitulo #2\n" + "3.Ejercicios Capitulo #3\n" + "4.Ejercicios Capitulo #4\n" + "5.Ejercicios Capitulo #5\n" + "6.Ejercicios Capitulo #6\n" + "7.Ejercicios Capitulo #7\n" + "8.Ejercicios Capitulo #8\n\n" +
+            Console.Write("1.Ejercicios Capitulo #1\n" + "2.Ejercicios Capitulo #2\n" + "3.Ejercicios Capitulo #3\n" + "4.Ejercicios Capitulo #4\n" + "5.Ejercicios Capitulo #5\n" + "6.Ejercicios Capitulo #6\n" + "7.Ejercicios Capitulo #7\n" + "8.Ejercicios Capitulo #8\n" +"9.Ejercicios Capitulo #9-10\n\n" +
                 "Digite la Opcion Deseada: ");
 
             int opc = int.Parse(Console.ReadLine());
@@ -269,6 +269,13 @@ namespace Tarea1.Tarea2
                         break;
                 }
             }
+        }
+
+        private static void Menu9()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new estructura());
         }
     }
 }
