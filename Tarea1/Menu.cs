@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tarea1;
+using System.Windows.Forms;
+using Tarea1.Tarea3;
 
 namespace Tarea1.Tarea2
 {
@@ -51,6 +53,11 @@ namespace Tarea1.Tarea2
                     case 8:
                         Console.Clear();
                         Menu8();
+                        break;
+
+                    case 9:
+                        Console.Clear();
+                        Menu9();
                         break;
                 }
             }
@@ -275,7 +282,7 @@ namespace Tarea1.Tarea2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new estructura());
+            Application.Run(new Estructura());
         }
     }
 }

@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,12 +68,29 @@
     <Compile Include="Tarea2\Cap7\Hash.cs" />
     <Compile Include="Tarea2\Cap8\DosCadenas.cs" />
     <Compile Include="Tarea2\Cap8\HORAampm.cs" />
+    <Compile Include="Tarea3\EnumeracionNeumaticos.cs" />
+    <Compile Include="Tarea3\Escuela.cs" />
+    <Compile Include="Tarea3\Estructura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\Estructura.Designer.cs">
+      <DependentUpon>Estructura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\EstructuraMascota.cs" />
+    <Compile Include="Tarea3\EstructuraTienda.cs" />
+    <Compile Include="Tarea3\InventarioTienda.cs" />
+    <Compile Include="Tarea3\PoligonoPropiedades.cs" />
+    <Compile Include="Tarea3\Poligonos.cs" />
+    <Compile Include="Tarea3\PoligonoString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Tarea3\" />
+    <EmbeddedResource Include="Tarea3\Estructura.resx">
+      <DependentUpon>Estructura.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
